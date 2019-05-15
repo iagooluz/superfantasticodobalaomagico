@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="jsons.css">
+</head>
+<body>
+    <h1 class="texto_login">Login</h1>
+    <form class="caixa_login">
+    <div>Digite o seu email<br><input type="text" id="email"></div><br>
+    <div>Digite a sua senha<br><input type="password" id="senha"></div>
+    <button class="entrada" type="button" onclick="entrar()">Entrar</button>
+    <div id="mensagem"></div>
+    <div class="esquecer" >Esqueceu sua senha?<a href="file:///C:/Users/aluno/Desktop/site%20P.I(EXEMPLO)/esqueceusenha.html">Clique aqui</a></div>
+    </form>
+</body>
+</html>
+<script>
+    function entrar(){
+        if(email.value != 'admin@hotmail.com' && senha.value != Number(123)){
+           mensagem.innerHTML = "Email ou senha incorreto";
+        }else{
+            location.href= "file:///C:/Users/aluno/Desktop/site%20P.I(EXEMPLO)/dashboard.html";
+        }
+    }
+</script>

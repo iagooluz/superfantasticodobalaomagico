@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://a.espncdn.com/media/motion/2019/0506/evc_FUTBOL_20190506_no_event_name_5b29228f_77f3_4e750/evc_FUTBOL_20190506_no_event_name_5b29228f_77f3_4e750.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.texto_inicio{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.caixa_cadastro{
+    color: aquamarine;
+    text-align: center;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    height: 270px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 35px;
+    background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2018/06/12/futebol-capas-1100594_widelg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+   
+.texto_entrada{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.contexto{
+    color: white;
+    text-align: left;
+    /* margin-top: 10px; */
+}
+.botão_cadastro{
+    margin-left: 510px;
+    width: 300px;
+    height: 100px;
+    color: black;
+    background-color: lightblue;
+    font-size: 30px;
+}
+.cadastra{
+    width: 110px;
+    padding-right: 60px;
+    border-style: solid;
+    padding-bottom: 10px;
+    text-align: center; 
+    margin-right: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    color: blue;
+    background-color: lightgrey;
+    font-size: 23px;
+}
+
+.esquecer{
+    
+}
+#mensagem{
+    color: red;
+}
+.texto_login{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.entrada{
+    width: 50px;
+    border-style: solid;
+    padding-bottom: 10px;
+}
+.caixa_login{
+    color: grey;
+    text-align: center;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    height: 350px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 35px;
+    background-image: url(https://aventurasnahistoria.uol.com.br/media/_versions/legacy/2018/06/12/futebol-capas-1100594_widelg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background_dashboard{
+    background-image: url(https://i0.wp.com/www.bolsadefutebol.com/wp-content/uploads/2018/05/Apostas-ao-Vivo-em-Futebol-Aumenta-os-Teus-Lucros-e-Poupa-Tempo.jpg?fit=1200%2C675&ssl=1);
+    background-size: 100%;  
+}
